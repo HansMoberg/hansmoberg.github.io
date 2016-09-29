@@ -6,9 +6,8 @@ switch( user ) {
         var strong = prompt( "Now, the first question you want ask yourself: 'Am I strong enough to handle one lonely little badger?' Then you'll want to answer that question with a YES or NO." ).toUpperCase();
         var smart = prompt( "The second question you'll want to ask yourself is: 'Am I smart enough to handle this suspicous looking badger?' Then you definitely want to answer that question with a YES or NO." ).toUpperCase();
         if ( strong === "YES" && smart != "NO" ) {
-            console.log( "Having read that 'Weekly Badgers' magazine, you feel assured that your perfectly normal human strenght surely will be enough to handle one little rock hard dangerously aggressive badger.");
-            console.log( "You're wrong though. Terribly wrong. Just as you think 'I'm gonna rush the little sucker and get him first', the badger rushes you. No time to react, the badger is fast as a bullet and reaches your shinbone before you even get the chance to say: 'OW!'".);
-            
+            console.log( "Having read that 'Weekly Badgers' magazine, you feel assured that your perfectly normal human strenght surely will be enough to handle one little rock hard dangerously aggressive badger." );
+            console.log( "You're wrong though. Terribly wrong. Just as you think 'I'm gonna rush the little sucker and get him first', the badger rushes you. No time to react, the badger is fast as a bullet and reaches your shinbone before you even get the chance to say: 'OW!'" );
         }
         console.log( "" );
         break;
