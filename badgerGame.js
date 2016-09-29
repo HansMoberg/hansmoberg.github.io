@@ -40,10 +40,10 @@ switch( user ) {
     break;
     /*
     case "TALK":
-        alert( "Hello, master!" );
+        alert( "" );
         break;
     case "QUIT":
-        console.log( "Why hello there Grutt!" );
+        alert( "" );
         break;
     */
     default:
